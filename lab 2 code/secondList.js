@@ -63,8 +63,7 @@ node5.next = node6;
 node6.prev = node5;
 
 let { newHead, newTail } = mergeDoublyLinkedLists(node1, node3, node5);
-
-
+  
 let current = newHead;
 while (current) {
     console.log(current.value);

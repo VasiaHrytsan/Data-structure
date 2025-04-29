@@ -50,4 +50,5 @@ class Stack {
   apartmentsStack.addToStack("Шевченка", 14, 2);
   console.log(apartmentsStack.countHousesOnStreet("Шевченка"));
   console.log(apartmentsStack.size());
+  console.log( "вивід 2:" ,apartmentsStack.numberOfElements())
   apartmentsStack.display();

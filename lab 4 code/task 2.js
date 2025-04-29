@@ -1,5 +1,5 @@
 function progression() {
-    let m = 0;
+    let m = 2;
 
     if( m < 1 ) {
         console.log("Помилка: m повинно бути більше або рівне 1");

@@ -19,7 +19,7 @@ function calculateFunction() {
        }
 
        else {
-           if( b * x - 10 == 0) {
+           if( b * x - 10 === 0) {
                console.log("Помилка: ділення на нуль");
                return;
            } else {
