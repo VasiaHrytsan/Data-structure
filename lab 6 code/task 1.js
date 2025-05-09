@@ -63,7 +63,7 @@ class TreeNode {
   console.log("Кількість кратних 10:", multiplesOf10(root));
   
   
-//   removeLeaf(root);
+  removeLeaf(root);
   
   function printTree(node, indent = "") {
     console.log(indent + node.value);
@@ -72,6 +72,6 @@ class TreeNode {
     }
   }
   
-//   console.log("\nДерево після видалення листів без братів:");
+  console.log("\nДерево після видалення листів без братів:");
   printTree(root);
   
